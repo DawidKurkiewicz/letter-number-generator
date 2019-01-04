@@ -9,7 +9,7 @@ const generator = () => {
     const numbers = "1234567890";
     let letters = "";
     const alphabet = "abcdefghijklmnopqrstuvwxyz";
-    while (letters.length < 5) {
+    while (letters.length < 1) {
         letters += alphabet[Math.floor(Math.random() * alphabet.length)];
     }
     const indexNum = Math.floor(Math.random() * numbers.length)
